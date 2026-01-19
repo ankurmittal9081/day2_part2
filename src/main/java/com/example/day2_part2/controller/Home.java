@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Home {
    @GetMapping("/")
     public StudentModel getStudent(){
-       StudentModel student=new StudentModel(1,"ankur","ankurmittal9081@gmail.com");
+       StudentModel student=new StudentModel(1,"ankur mittal","ankurmittal9081@gmail.com");
        return student;
 
    }
