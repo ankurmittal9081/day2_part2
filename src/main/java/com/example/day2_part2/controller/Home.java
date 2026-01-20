@@ -10,10 +10,10 @@ public class Home {
    @GetMapping("/")
     public ArrayList<StudentModel> getStudent(){
        StudentModel student=new StudentModel(1,"ankur mittal","ankurmittal9081@gmail.com");
-       StudentModel student1=new StudentModel(1,"ankur mittal","ankurmittal9081@gmail.com");
-       StudentModel student2=new StudentModel(1,"ankur mittal","ankurmittal9081@gmail.com");
-       StudentModel student3=new StudentModel(1,"ankur mittal","ankurmittal9081@gmail.com");
-       StudentModel student4=new StudentModel(1,"ankur mittal","ankurmittal9081@gmail.com");
+       StudentModel student1=new StudentModel(2,"tanya mittal","tanyamittal9081@gmail.com");
+       StudentModel student2=new StudentModel(3,"sakshi mittal","sakshimittal9081@gmail.com");
+       StudentModel student3=new StudentModel(4,"deeksha mittal","deekshamittal9081@gmail.com");
+       StudentModel student4=new StudentModel(5,"anshu mittal","anshuittal9081@gmail.com");
 
 
        ArrayList<StudentModel> l=new ArrayList<>();
